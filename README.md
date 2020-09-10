@@ -15,6 +15,13 @@ Puntos 1 y 2: proyecto 'PrimesFinderDesktopTool'.
 Punto 3: proyecto PrimesAPI.
 
 1. [33%] Haga que el programa divida y paralelice la búsqueda de los números primos dentro del intervalo dado en exactamente 4 hilos de ejecución.
+> 
+> - se hace la prueba corresponidente con un intervalo de 1 a 100 y el resultado es correcto 
+>
+> 	![](img/parte1.png)
+>
+>
+
 
 2. [33%] Haga que el programa mantenga inactivos los hilos (sin esperas activas!), hasta tanto se detecte que el computador no tiene actividad (en este caso, cuando se completen 10 segundos sin detectar movimiento del mouse). Del mismo modo, una vez se detecte actividad del mouse, los hilos deberían nuevamente suspenderse (de nuevo, hasta tanto se detece la inactividad del mouse por al menos 10 segundos). Al terminarse la búsqueda en el intervalo dado, el programa debe funcionar exactamente igual que en la versión original: imprimiendo los resultados capturados en el objeto PrimeResultSet:
 
