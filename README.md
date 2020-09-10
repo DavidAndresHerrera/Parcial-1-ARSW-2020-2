@@ -43,8 +43,23 @@ Punto 3: proyecto PrimesAPI.
     * No se den condiciones de carrera ni bloqueos innecesarios.
     * Se debe realizar la implementación de la clase PrimeServiceStub y conectarlos con el controlador PrimesController usando inyección de dependencias
 
-
-
+> Se hacen los arrglos corespondientes y se probo todo con postman 
+>
+>   ![](img/getPrimes.png)
+>
+>   ![](img/getPrimesNumber.png)
+>
+>   ![](img/getPrimesNumberError.png)
+>
+> Despues se hace el post con sus restricciones y  se probo 
+>
+>   ![](img/postBien.png)
+>
+> Se hace la prueba para dar error con el numero 23, ya que es un numero que ya existe
+> 
+>   ![](img/postMal.png)
+>
+>
 ## Entrega
 
 Siga al pie de la letra estas indicaciones para la entrega de este punto. EL
