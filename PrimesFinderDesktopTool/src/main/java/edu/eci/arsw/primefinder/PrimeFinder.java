@@ -9,12 +9,19 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class PrimeFinder{
-        
-	
+    private ArrayList<ThreadPrimeFinder> hilos;
+    private boolean ejecucion;
+
+	public PrimeFinder(){
+
+        hilos = new ArrayList<ThreadPrimeFinder>();
+        ejecucion = true;
+
+    }
 	
 
-	public static void findPrimes(BigInteger _a, BigInteger _b, PrimesResultSet prs) {
-        ArrayList<ThreadPrimeFinder> hilos = new ArrayList<ThreadPrimeFinder>();
+	public void findPrimes(BigInteger _a, BigInteger _b, PrimesResultSet prs) {
+        hilos = new ArrayList<ThreadPrimeFinder>();
         BigInteger a = _a;
         BigInteger b = _b;
         BigInteger numThreads = new BigInteger("4");
@@ -45,6 +52,7 @@ public class PrimeFinder{
         for (ThreadPrimeFinder i : hilos) {
             i.start();
         }
+
         for (ThreadPrimeFinder i : hilos) {
             try {
                 i.join();
@@ -53,7 +61,12 @@ public class PrimeFinder{
             }
         }
 
+
+        
+
     }
+
+
 	
 	
 }

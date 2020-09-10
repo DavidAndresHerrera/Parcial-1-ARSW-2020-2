@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90c9106e-b6d2-4705-8820-2b0aa5d955ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1hKZGX1TRD3OXio6KrBhhugPsoc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PrimesFinderDesktopTool/pom.xml" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c9106e-b6d2-4705-8820-2b0aa5d955ec" name="Default Changelist" comment="" />
+      <created>1599761649291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599761649291</updated>
+      <workItem from="1599761650426" duration="342000" />
+    </task>
+    <task id="LOCAL-00001" summary="Readme listo">
+      <created>1599761916730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599761916730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Readme listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme listo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1490" y="-87" key="CommitChangelistDialog2" timestamp="1599761913493">
+      <screen x="-1920" y="-175" width="1920" height="1040" />
+    </state>
+    <state x="-1490" y="-87" key="CommitChangelistDialog2/0.0.1366.728/-1920.-175.1920.1040@-1920.-175.1920.1040" timestamp="1599761913493" />
+    <state x="-1180" y="100" key="FileChooserDialogImpl" timestamp="1599761991539">
+      <screen x="-1920" y="-175" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="100" key="FileChooserDialogImpl/0.0.1366.728/-1920.-175.1920.1040@-1920.-175.1920.1040" timestamp="1599761991539" />
+    <state x="-1368" y="78" key="Vcs.Push.Dialog.v2" timestamp="1599761934319">
+      <screen x="-1920" y="-175" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-175.1920.1040@-1920.-175.1920.1040" timestamp="1599761934319" />
+    <state x="-1143" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599761860608">
+      <screen x="-1920" y="-175" width="1920" height="1040" />
+    </state>
+    <state x="-1143" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-175.1920.1040@-1920.-175.1920.1040" timestamp="1599761860608" />
   </component>
 </project>

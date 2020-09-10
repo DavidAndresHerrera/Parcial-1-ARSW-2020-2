@@ -19,29 +19,34 @@ public class PrimesFinderTool {
             int maxPrim=1000;
             
             PrimesResultSet prs=new PrimesResultSet("john");
-            
-            PrimeFinder.findPrimes(new BigInteger("1"), new BigInteger("100"), prs);
-            
-            System.out.println("Prime numbers found:");
-            
-            System.out.println(prs.getPrimes());
-            
-            
-            /*while(task_not_finished){
+
+            PrimeFinder finder = new PrimeFinder();
+
+            finder.findPrimes(new BigInteger("1"), new BigInteger("1000"), prs);
+/**
+            while(finder.enEjecucion()){
+                //System.out.println("________________________________________________________________________________");
                 try {
                     //check every 10ms if the idle status (10 seconds without mouse
                     //activity) was reached. 
                     Thread.sleep(10);
                     if (MouseMovementMonitor.getInstance().getTimeSinceLastMouseMovement()>10000){
-                        System.out.println("Idle CPU ");
+                        System.out.println("_______________________________________$$$$$$$$$$$$$$$$$$$$$$$$$$$$_________________________________________");
+                        finder.correr();
                     }
                     else{
-                        System.out.println("User working again!");
+                        finder.parar();
                     }
                 } catch (InterruptedException ex) {
                     Logger.getLogger(PrimesFinderTool.class.getName()).log(Level.SEVERE, null, ex);
                 }
-            }*/
+            }
+
+*/
+
+        System.out.println("Prime numbers found:");
+
+        System.out.println(prs.getPrimes());
                         
             
             

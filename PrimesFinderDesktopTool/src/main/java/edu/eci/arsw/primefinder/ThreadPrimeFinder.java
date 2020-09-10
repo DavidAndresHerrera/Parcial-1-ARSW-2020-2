@@ -25,6 +25,7 @@ public class ThreadPrimeFinder extends Thread{
         while (i.compareTo(new BigInteger(String.valueOf(fin)))<=0){
             itCount++;
             if (mt.isPrime(i)){
+                System.out.println("meti uno");
                 prs.addPrime(i);
             }
 
