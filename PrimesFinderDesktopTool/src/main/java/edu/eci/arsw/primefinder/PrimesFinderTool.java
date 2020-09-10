@@ -22,7 +22,7 @@ public class PrimesFinderTool {
 
             PrimeFinder finder = new PrimeFinder();
 
-            finder.findPrimes(new BigInteger("1"), new BigInteger("1000"), prs);
+            finder.findPrimes(new BigInteger("1"), new BigInteger("100"), prs);
 /**
             while(finder.enEjecucion()){
                 //System.out.println("________________________________________________________________________________");
