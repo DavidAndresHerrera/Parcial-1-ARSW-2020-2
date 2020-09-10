@@ -18,7 +18,7 @@ Punto 3: proyecto PrimesAPI.
 > 
 > - se hace la prueba corresponidente con un intervalo de 1 a 100 y el resultado es correcto 
 >
-> 	![](img/parte1.png)
+> 	![](img/parte 1.png)
 >
 >
 
